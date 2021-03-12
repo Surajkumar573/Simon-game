@@ -1,0 +1,103 @@
+body {
+text-align: center;
+background-image: url(file:///C:/Users/Ragini/Desktop/Desktop/Suraj/Simongame/images.jpg);
+}
+
+div{
+  text-align: center;
+  font-size:9rem;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+aside{
+     width: 90px;
+      height: 70px;
+      position: fixed;
+      z-index: 100;
+      top: 0px;
+      left: 0px;
+}
+
+.yourScore{
+  margin-top: 4rem;
+  margin-left: 2px;
+    line-height: 1.6;
+    font-size: 2rem;
+    position: fixed;
+    color:#00ff72;
+    font-weight: bolder;
+}
+
+
+
+#header{
+  text-align: center;
+  font-size: 4rem;
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: 0 4px 3px 0;
+  color: cyan;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#header-title{
+  font-size: 20px;
+  font-family: cursive;
+  text-align:left;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 0px;
+  color:#00053f;
+
+}
+#level-title {
+  font-family: sans-serif;
+  font-size: 3rem;
+    margin-top: 2px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 0px 20px 20px 20px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 10px solid grey;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
